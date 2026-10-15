@@ -1,0 +1,11 @@
+{
+  "name": "freelance-desk-cloud-html",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "dev": "vercel dev" },
+  "dependencies": {
+    "@vercel/blob": "^2.3.0",
+    "iron-session": "^8.0.4"
+  },
+  "devDependencies": { "vercel": "^41.0.0" }
+}
