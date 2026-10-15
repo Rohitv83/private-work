@@ -17,7 +17,7 @@ This keeps the UI in one `index.html` (HTML/CSS/JavaScript) and includes small V
 3. In Vercel, create a **Private** Blob store and connect it to this project. This should provide `BLOB_READ_WRITE_TOKEN`.
 4. In Vercel Project Settings → Environment Variables, add:
    - `FREELANCE_PASSWORD`: your strong, unique panel password
-   - `SESSION_SECRET`: random secret with at least 32 characters
+   - `SESSION_SECRET`: random secret wit at least 32 characters
    - `BLOB_READ_WRITE_TOKEN`: generated when you connect Blob
 5. Redeploy after setting environment variables.
 6. Open the Vercel URL on your laptop and phone. Use the same password; data is shared through the cloud.
